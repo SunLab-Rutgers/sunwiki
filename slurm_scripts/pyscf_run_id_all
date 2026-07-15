@@ -31,7 +31,7 @@ batch_file=$(mktemp)
 #SBATCH --output=${script_base}_slurm.out
 #SBATCH --error=${script_base}_slurm.err
 #SBATCH --export=ALL
-#SBATCH --mail-user=lwg17@scarletmail.rutgers.edu
+#SBATCH --mail-user=<netid>@scarletmail.rutgers.edu
 #SBATCH --mail-type=END,FAIL,REQUEUE
 #SBATCH --requeue
 

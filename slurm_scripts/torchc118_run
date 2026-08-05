@@ -25,7 +25,7 @@ train_args="$@"
 
 # -------- Config --------
 CONDA_ENV="torch-cu118"                # CUDA 11.8 environment (hard requirement)
-PARTITION="${PARTITION:-gpu,gpu-redhat}"
+PARTITION="${PARTITION:-gpu-redhat}"
 GPUS="${GPUS:-1}"
 CPUS="${CPUS:-4}"
 MEM="${MEM:-16G}"
